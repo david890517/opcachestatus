@@ -5,4 +5,9 @@ Zend PHP OpCache minimalistic single-file frontend status overview without use o
 * Cache Reset button
 * ~7 kB file size
 
-Upload file to the server and access directly via browser.
+INSTRUCTIONS
+Upload file to the server and access it directly via browser.
+
+REQUIREMENTS
+* PHP 5.5+
+* opcache enabled

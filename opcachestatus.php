@@ -272,19 +272,23 @@ if($status) {
 
 }
 
-// Close Wrapper
-echo '</div>';
+echo '<br/>';
 
 ?>
 
-<br/>
-
 <form name="opcache_reset" id="opcache_reset" action="opcachestatus.php" method="post">
 	<input type="hidden" name="opcache_reset" value="opcache_reset"/>
-	<button type="submit">RESET CACHE</button>
+	<button type="submit" style="padding:8px 10px;">RESET CACHE</button>
 </form>
 
 	</body>
 </html>
 
-<?php } ?>
+<?php
+
+// Close Wrapper
+echo '</div>';
+
+}
+
+?>

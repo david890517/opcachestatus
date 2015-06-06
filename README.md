@@ -17,5 +17,5 @@ Upload file to the server and access it directly via browser.
 
 ## LINKS
 
-* Project Page: http://dev-101.github.io/opcachestatus/
-* TehnoBlog Post: http://tehnoblog.org/zend-php-opcache-minimalistic-single-file-frontend-status/
+* Project Page http://dev-101.github.io/opcachestatus/
+* TehnoBlog Post http://tehnoblog.org/zend-php-opcache-minimalistic-single-file-frontend-status/

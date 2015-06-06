@@ -14,3 +14,8 @@ Upload file to the server and access it directly via browser.
 
 * PHP 5.5+
 * opcache enabled
+
+## LINKS
+
+* Project Page: http://dev-101.github.io/opcachestatus/
+* TehnoBlog Post: http://tehnoblog.org/zend-php-opcache-minimalistic-single-file-frontend-status/

@@ -8,7 +8,7 @@ Zend PHP OpCache minimalistic single-file frontend with semi-responsive table-li
 
 ##INSTRUCTIONS
 
-Upload file to the server and access it directly via browser.
+Upload `opcachestatus.php` file to the server and access it directly via browser.
 
 ##REQUIREMENTS
 

@@ -232,6 +232,7 @@ if($status) {
 				echo '<th colspan="6"><span style="color:#F40;">' . 'OPCACHE SCRIPTS' . '</span></th>';
 			echo '</tr>';
 			echo '<tr>';
+				echo '<th>N</th>';
 				echo '<th>Full Path</th>';
 				echo '<th>Hits</th>';
 				echo '<th>Memory [KB]</th>';
@@ -239,13 +240,16 @@ if($status) {
 			echo '</tr>';
 		echo '</thead>';
 		echo '<tbody>';
+			$i = 1;
 			foreach ($opcacheScripts as $key) {
 				echo '<tr>';
+					echo '<td>' . $i . '</td>';
 					echo '<td>' . $key['full_path'] . '</td>';
 					echo '<td>' . $key['hits'] . '</td>';
 					echo '<td>' . round(($key['memory_consumption'] / 1024), 2) . '</td>';
 					echo '<td>' . $key['last_used'] . '</td>';
 				echo '</tr>';
+				$i++;
 			}
 		echo '</tbody>';
 	echo '</table>';

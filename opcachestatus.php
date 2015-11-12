@@ -81,7 +81,10 @@ if(!$status) {
 	$opcacheStatistics = $status['opcache_statistics'];
 
 	// get scripts
-	$opcacheScripts = $status['scripts'];
+	$opcacheScripts = array();
+	if (isset($status['scripts']) && $status['scripts'] != '') {
+		$opcacheScripts = $status['scripts'];
+	}
 
 # from $config
 

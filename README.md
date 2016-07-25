@@ -9,13 +9,14 @@ Zend PHP OpCache minimalistic single-file frontend with semi-responsive table-li
 ##INSTRUCTIONS
 
 Upload `opcachestatus.php` file to the server and access it directly via browser.
+Additionally, you may rename file to any random string and limit public access to certain IPs or range.
 
 ##REQUIREMENTS
 
 * PHP 5.5+
-* opcache enabled
+* OpCache enabled
 
 ## LINKS
 
 * Project Page http://dev-101.github.io/opcachestatus/
-* TehnoBlog Post http://tehnoblog.org/zend-php-opcache-minimalistic-single-file-frontend-status/
+* Blog Post http://tehnoblog.org/zend-php-opcache-minimalistic-single-file-frontend-status/

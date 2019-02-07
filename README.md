@@ -4,7 +4,7 @@ Zend PHP OpCache minimalistic single-file frontend with semi-responsive table-li
 * displays ALL parameters available, including Scripts (keys) and Blacklist entries (if available)
 * without use of any external plugin
 * Cache Reset button
-* ~7 kB file size
+* < 10 kB file size
 
 ##INSTRUCTIONS
 
